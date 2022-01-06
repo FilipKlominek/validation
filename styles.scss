@@ -1,0 +1,22 @@
+
+@import "node_modules/bootstrap/scss/functions.scss";
+@import "node_modules/bootstrap/scss/variables.scss";
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 40%;
+}
+
+.logo {
+  margin-top: 100px;
+  width: 30px;
+}
+
+#warning {
+  display: none;
+}

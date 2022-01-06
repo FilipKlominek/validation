@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body class="d-flex flex-row">
+<div class="left d-flex justify-content-center align-items-center overflow-hidden">
+    <img src="image.png">
+</div>
+<div class="right d-flex flex-column">
+    <div class="gear d-flex justify-content-end m-2"><img src="gear.png" alt="generic background image"></div>
+    <img src="logo.png" class="logo align-self-center">
+    <h1 class="h1 text-center fs-3 text-secondary m-3">Sign in</h1>
+    <div class="w-75 d-flex align-self-center flex-column">
+        <label>Email:
+            <input type="email" class="input-group btn btn-light text-start align-self-end">
+        </label>
+        <label>Password:<span id="warning" class="text-danger">&nbsp;(At least 1 capital letter and 8 characters)</span>
+            <input type="password" id="password" class="input-group btn btn-light text-start align-self-end form-control">
+        </label>
+        <a href="#" class="align-self-end text-decoration-none">Forgot password?</a>
+        <button onclick="sighIn()" id="submit" type="submit" class="btn btn-primary">Sign in</button>
+        <a href="#" class="align-self-center text-decoration-none"><b>Don't have an account? Sign up!</b></a>
+    </div>
+</div>
+</body>
+</html>
